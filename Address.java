@@ -11,7 +11,8 @@ class Ad
 		City = city;
 	}
 	@Override
-	public String toString() {
+	public String toString()
+	{
 		return "Address :" + AddressLine + " "+getCity();
 	}
 	public void setAddressLine(String AddressLine)
